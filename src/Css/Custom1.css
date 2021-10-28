@@ -140,10 +140,13 @@ section {
   background: linear-gradient(to left, #ffffff, #047edf 99%) !important;
   color: white;
   text-align: center;
+
   margin-left: 85px;
   margin-right: 85px;
   /* border: 3px solid red; */
   border-radius: 5px;
+  height: 40px;
+  padding-top: 5px;
 }
 .portal h3 {
   font-size: 1.5rem;
@@ -192,6 +195,7 @@ section {
   margin: 10px 85px 1px 85px;
   border: 1px solid #333;
   position: initial;
+  min-height: 80vh;
 }
 .InnerSectionBox {
   background: url(http://localhost:3000/assets/images/green-bg.jpg) repeat;
@@ -276,9 +280,9 @@ section {
   margin: 5px 86px 8px 86px;
 }
 .submitButton {
-  margin: 0px 45%;
+  margin-top: 40px;
   text-align: center;
-  width: max-content;
+  width: 100%;
 }
 .ml-6 {
   margin-left: 5.7rem !important;
@@ -362,6 +366,7 @@ section {
     margin-right: 2px;
     margin-top: 2px;
     margin-bottom: 5px;
+    height: 40 px;
   }
   .portal h3 {
     font-size: inherit;
@@ -374,6 +379,7 @@ section {
     margin: 1px;
     border: 1px solid #333;
     position: initial;
+    min-height: 100px;
   }
   .InnerSectionBox {
     background: url(http://localhost:3000/assets/images/green-bg.jpg) repeat;
